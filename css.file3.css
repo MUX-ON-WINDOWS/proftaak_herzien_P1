@@ -1,0 +1,64 @@
+
+
+body.loggedin {
+    background-color: #E3CD81FF;
+    border: none;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    padding: 25px;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+.content > a, p, .content > div {
+    margin: 25px 0;
+    padding: 25px;
+    background-color: #B1B3B3FF;
+}
+
+.content > div p, a {
+    padding: 5px;
+    margin: 0 0 10px 0;
+}
+
+th {
+    text-align: center;
+    justify-content: space-around;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #B1B3B3FF;
+}
+
+th, td {
+    border: none;
+    height: 30px;
+    padding: 20px;
+}
+
+tr:hover {
+    background: #B1B3B3FF;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
